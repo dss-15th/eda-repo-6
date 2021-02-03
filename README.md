@@ -1,6 +1,6 @@
 # OECD 데이터로 바라본 자살률
 ## 구성원
-- 김경한 : ppt 작성, 영유아사망률을 주제로 한 EDA 전담
+- 김경한 : 영유아사망률을 주제로 한 EDA 전담
 - 김준성 : 자살률을 주제로 한 EDA 전담
 ## 목적
 - 데이터 처리를 위한 라이브러리인 pandas 실습한다.
@@ -11,7 +11,7 @@
   - https://data.oecd.org/
   - https://ourworldindata.org/
 - 국내외 자살률에 관한 뉴스를 참고하여 자살률에 영향을 미칠만한 피처를 선별하였다.
-  - 성별, 나이, GDP, 학력수준, 빈곤지수, and etc
+  - 성별, 나이, GDP, 학력수준, 빈곤지수 & etc
 - 각 데이터 대상은 OECD 가입국이며 연 단위로 이루어져있다.
 ## 과정
 - EDA는 일반적으로 다음과 같은 과정을 거쳤다.
@@ -86,8 +86,11 @@
   sns.pairplot(ko_tot, height=2)
   ```
 - 참조
-
-  
+  - OECD 
+![Screenshot 2021-02-03 at 14 46 31](https://user-images.githubusercontent.com/70704636/106704242-2084c400-662f-11eb-9571-46d50a0c7c1e.jpg)
+  - 한국
+![Screenshot 2021-02-03 at 14 46 51](https://user-images.githubusercontent.com/70704636/106704327-49a55480-662f-11eb-82ed-b33ed3773e77.jpg)
+![Screenshot 2021-02-03 at 14 47 08](https://user-images.githubusercontent.com/70704636/106704347-5164f900-662f-11eb-89f9-c9635a9c8952.jpg)
 ## 결론
   - 한국의 자살률은 증가추세에 있다.
   - 대체적으로 연령대가 높을수록 자살률이 높다.
