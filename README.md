@@ -94,7 +94,7 @@
   sns.pairplot(ko_tot, height=2)
   </code></pre>
   
-- 참조
+## 참조
   - OECD 
 ![Screenshot 2021-02-03 at 14 46 31](https://user-images.githubusercontent.com/70704636/106704242-2084c400-662f-11eb-9571-46d50a0c7c1e.jpg)
   - 한국
